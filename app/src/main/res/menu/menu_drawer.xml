@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/type1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+            android:title="手机打卡" />
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+            android:title="設置" />
+        <!--<item
+            android:id="@+id/item3"
+            android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+            android:title="item3" />-->
+    </group>
+    <!--<group android:id="@+id/type3" android:checkableBehavior="single" android:menuCategory="container">
+        <item
+            android:id="@+id/type3_item1"
+            android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+            android:title="type3_item1">
+        </item>
+        <item
+            android:id="@+id/type3_item2"
+            android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+            android:title="type3_item2" />
+        <item
+            android:id="@+id/type3_item3"
+            android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+            android:title="type3_item3" />
+    </group>-->
+    <!--<item android:id="@+id/type2" android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/type2_item1"
+                android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+                android:title="設置" />
+            <item
+                android:id="@+id/type2_item2"
+                android:icon="@drawable/abc_ic_voice_search_api_mtrl_alpha"
+                android:title="設置_item2" />
+        </menu>
+    </item>-->
+</menu>

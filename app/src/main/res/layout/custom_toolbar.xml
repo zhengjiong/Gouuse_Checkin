@@ -1,0 +1,35 @@
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:fitsSystemWindows="true"
+    app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    />
+    <!--
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+    app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+    app:popupTheme的作用是設置toolbar在那個點擊會彈出的菜單的主題,
+    比如說overflow按鈕彈出的popupMenu
+    如果不設置那就會沿用app:theme的主題,這樣就會導致顏色和toolbar的一樣,
+    (比如設置popmenu的背景為白色,字體黑色,就需要Light主題)
+    -->
+    <!--
+         zj:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+         可以讓ActionBar中的Menu文字變成白色,
+         這裡如果設置了那style中的colorControlNormal就會不起作用
+    />-->
+
+    <!--
+    android:minHeight="?android:attr/actionBarSize"
+    是引用android-21\data\res\values中的actionBarSize
+
+    android:minHeight="?attr/actionBarSize"
+    是引用com.android.support\appcompat-v7\21.0.2\res\values中的actionBarSize
+    -->
